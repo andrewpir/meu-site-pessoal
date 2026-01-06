@@ -1,0 +1,117 @@
+main {
+    display: flex;
+    flex: 20 1 500px; /*20 indica q ele cresce 20x mais qe os outros*/
+    /*height: calc(100vh - 224px);*/
+    flex-wrap: wrap;
+    /*height: 2000px;
+    overflow: auto;*/
+}
+
+main div {
+    padding: 1%;
+    border-radius: 15px;
+}
+
+main .infos {
+    text-align: center;
+    align-content: center;
+}
+
+main .basicInfo{
+    width: 100%;
+    
+}
+
+main h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: clamp(16px, 3vw, 40px);
+    text-align: center;
+}
+
+main h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: clamp(14px, 2vw, 40px);
+    font-weight: normal;
+    text-align: center;
+}
+
+main .apresentimg{
+    width: 30%;
+    border-radius: 50%;
+}
+
+main .skills {
+    width: 100%;
+    flex: 1 1 100vw;
+    
+}
+
+main .apresent {
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    font-size: clamp(12px, 1.2vw, 30px);
+    font-weight: normal;
+    margin: 0px 15%;
+}
+
+main .myprojects {
+    display: flex;
+    width: 100%;
+    flex: 1 1 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagecarousel {
+    width: 40%;
+    padding: 3%;
+}
+
+.textcarousel {
+    text-align: center;
+}
+
+main .myprojects .projectstext {
+    width: 45%;
+}
+
+main .myprojects .projectsimg {
+    width: 40%;
+    height: 22vw;
+    padding: 3%;
+}
+
+main .tutorials {
+    display: flex;
+    width: 100%;
+    flex: 1 1 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+main .tutorials .tutorialstext {
+    width: 45%;
+}
+
+main .tutorials .tutorialsimg {
+    width: 40%;
+    padding: 3%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+
+

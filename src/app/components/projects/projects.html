@@ -1,0 +1,43 @@
+<main>
+    <!--<div>
+        <h1>Projetos Pessoais</h1>
+    </div>
+    <div class="row">
+        @for (projeto of projetosPessoais; track projeto.titulo) {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm bg-dark text-white border-secondary">
+                <img [src]="projeto.imagem" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ projeto.titulo }}</h5>
+                    <p class="card-text">{{ projeto.descricao }}</p>
+
+                    <div class="mb-3">
+                        @for (tech of projeto.tecnologias; track tech) {
+                        <span class="badge bg-primary me-1">{{ tech }}</span>
+                        }
+                    </div>
+
+                    <a [href]="projeto.link" target="_blank" class="btn btn-outline-light">Ver Código</a>
+                </div>
+            </div>
+        </div>
+        }
+    </div>-->
+
+    <div class="container mt-5 text-white">
+        <h2 class="text-center mb-4">Portfólio</h2>
+
+        <ul class="nav nav-pills justify-content-center mb-5">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="pessoais" routerLinkActive="active">Meus Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="equipe" routerLinkActive="active">Equipe / Participações</a>
+            </li>
+        </ul>
+
+        <div class="border-top pt-4">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</main>

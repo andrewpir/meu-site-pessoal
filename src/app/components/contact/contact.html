@@ -1,0 +1,38 @@
+<main>
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow border-0" style="background-color: #1a3a6d; color: white;">
+                    <div class="card-body p-4">
+                        <h2 class="text-center mb-4">Entre em Contato</h2>
+
+                        <form [formGroup]="contactForm" (ngSubmit)="enviarContato()">
+                            <div class="mb-3">
+                                <label class="form-label">Nome</label>
+                                <input type="text" formControlName="nome" class="form-control"
+                                    placeholder="Seu nome completo">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" formControlName="email" class="form-control"
+                                    placeholder="email@exemplo.com">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Mensagem</label>
+                                <textarea formControlName="mensagem" class="form-control" rows="4"
+                                    placeholder="Como posso te ajudar?"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-light w-100 fw-bold py-2">
+                                Enviar Mensagem
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

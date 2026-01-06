@@ -1,0 +1,80 @@
+header {
+    flex: 1 1 100vw;
+
+}
+
+header #logo {
+    display: flex;
+    width: 100vw;
+    background: #283747;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    /*flex: 0 2 40%;*/
+    max-width: 800px;
+    min-height: 100px;
+    height: 8vw;
+}
+
+header #logo img {
+    height: 5vw;
+    margin: 5px;
+    min-height: 30px;
+}
+
+/*
+nav .menu {
+    flex: 1 1 100vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav a {
+    margin: 5%;
+    font-size: clamp(18px, 2vw, 40px);
+}*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    width: 100%;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    font-size: clamp(18px, 2vw, 40px);
+    display: inline-flex;
+    /**/
+    align-items: center;
+    justify-content: left;
+}
+
+@media only screen and (max-width: 850px) {
+    header {
+        align-items: center;
+    }
+
+    header #logo {
+        height: 100%;
+        min-height: 100px;
+        width: 87vw;
+    }
+
+    header #logo img {
+        height: 80px;
+        margin: 5px;
+    }
+
+    nav a {
+        font-size: 5vw;
+    }
+}

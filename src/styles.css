@@ -1,0 +1,76 @@
+a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit;        /* Faz o link herdar a cor do elemento pai (em vez do azul) */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+body {
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background: #2C3E50;
+    flex-wrap: wrap;
+}/* You can add global styles to this file, and also import other style files */
+
+header, nav, main, aside, footer {/*propriedades com valor em comum*/
+    display: flex;
+    margin: 3px 10% 3px 10%;
+    background: #1F4287;
+    border-radius: 15px;
+    width: 80vw;      
+    max-width: 1800px;
+
+}
+
+
+@media only screen and (max-width: 923px) {/*Regra da pagina para main e aside quando a tela for menor que 923px*/
+    header{
+        order: 0;
+    }
+    
+    main {
+        /*height: calc(100vh - 330px);*/
+        order: 1;
+    }
+
+    aside {
+        flex: 1 1 100vw;
+        height: 100px;
+        order: 2;
+    }
+
+    footer {
+        order: 3;
+    }
+}
+
+@media only screen and (max-width: 850px) {/*Regra da pagina para menu ... quando a tela é pequena*/
+
+header, nav, main, aside, footer {/*propriedades com valor em comum*/
+    display: flex;
+    flex-direction: column;
+    margin: 3px 3% 3px 3%;
+    background: #1F4287;
+    border-radius: 15px;
+    width: 90%;
+}
+
+
+    nav {
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        transition: 0.3s;
+        /*display: none; */
+    }
+
+}
