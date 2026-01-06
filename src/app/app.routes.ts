@@ -5,6 +5,7 @@ import { About } from './components/about/about';
 import { Contact } from './components/contact/contact';
 import { PersonalProjects } from './components/projects/personal-projects/personal-projects';
 import { TeamProjects } from './components/projects/team-projects/team-projects';
+import { Highlights } from './components/projects/highlights/highlights';
 
 export const routes: Routes = [
     { path: '', component: Main },
@@ -15,7 +16,8 @@ export const routes: Routes = [
         children: [
             { path: 'pessoais', component: PersonalProjects },
             { path: 'equipe', component: TeamProjects },
-            { path: '', redirectTo: 'pessoais', pathMatch: 'full' }
+            { path: 'destaques', component: Highlights },
+            { path: '', redirectTo: 'destaques', pathMatch: 'full' }
         ]
     }
 ];

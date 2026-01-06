@@ -44,3 +44,9 @@ Thumbs.db
 
 # Ambientes com chaves sensíveis
 src/environments/environment.ts
+src/environments/environment.development.ts
+
+
+
+
+

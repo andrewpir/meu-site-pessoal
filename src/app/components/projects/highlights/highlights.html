@@ -1,0 +1,22 @@
+<p>highlights works!</p>
+<div class="row">
+    @for (projeto of destaques; track projeto.titulo) {
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm bg-dark text-white border-secondary">
+            <img [src]="projeto.imagem" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ projeto.titulo }}</h5>
+                <p class="card-text">{{ projeto.descricao }}</p>
+
+                <div class="mb-3">
+                    @for (tech of projeto.tecnologias; track tech) {
+                    <span class="badge bg-primary me-1">{{ tech }}</span>
+                    }
+                </div>
+
+                <a [href]="projeto.link" target="_blank" class="btn btn-outline-light">Ver Código</a>
+            </div>
+        </div>
+    </div>
+    }
+</div>
