@@ -1,59 +1,58 @@
-# PirexGames
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+# Meu Site Pessoal
 
-## Development server
+Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para centralizar meus projetos, estudos em Angular e ferramentas úteis.
 
-To start a local development server, run:
+**Acesse o site vivo:** [https://www.pirexgames.win/](https://www.pirexgames.win/)
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Tecnologias Utilizadas
 
-## Code scaffolding
+* **Angular 18+** (Framework principal)
+* **Bootstrap 5** (Estilização e Responsividade)
+* **TypeScript** (Lógica de programação)
+* **Formspree** (Integração de formulário de contato)
+* **Git/GitHub** (Versionamento e Conventional Commits)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 📂 Funcionalidades Atuais
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* [x] **Design Responsivo:** Adaptado para mobile e desktop.
+* [x] **Sistema de Rotas:** Navegação rápida entre as seções (Início, Contato, Projetos).
+* [x] **Formulário de Contato:** Integração funcional para recebimento de e-mails.
+* [x] **Galeria de Projetos Dinâmica:** Organizada com o novo Control Flow do Angular (`@for`).
+* [ ] **Backend (Em breve):** Backend para administração do banco de dados.
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 💻 Como rodar o projeto localmente
 
-To build the project run:
+Se você deseja explorar o código ou rodar este projeto na sua máquina:
 
-```bash
-ng build
-```
+1.  Clone este repositório:
+    ```bash
+    git clone https://github.com/andrewpir/meu-site-pessoal.git(https://github.com/andrewpir/meu-site-pessoal.git)
+    ```
+2.  Entre na pasta do projeto:
+    ```bash
+    cd seu-projeto
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+4.  Inicie o servidor de desenvolvimento:
+    ```bash
+    ng serve
+    ```
+5.  Acesse `http://localhost:4200/` no seu navegador.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## ✍️ Autor
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Desenvolvido por **[Andrew Pires de Almeida]**.
+Sinta-se à vontade para entrar em contato através do formulário no site ou abrir uma *Issue* se encontrar algum bug!
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
