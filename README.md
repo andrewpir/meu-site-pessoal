@@ -17,7 +17,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvi
 
 ---
 
-## 📂 Funcionalidades Atuais
+## Funcionalidades Atuais
 
 * [x] **Design Responsivo:** Adaptado para mobile e desktop.
 * [x] **Sistema de Rotas:** Navegação rápida entre as seções (Início, Contato, Projetos).
@@ -27,7 +27,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvi
 
 ---
 
-## 💻 Como rodar o projeto localmente
+## Como rodar o projeto localmente
 
 Se você deseja explorar o código ou rodar este projeto na sua máquina:
 
@@ -51,7 +51,7 @@ Se você deseja explorar o código ou rodar este projeto na sua máquina:
 
 ---
 
-## ✍️ Autor
+## Autor
 
 Desenvolvido por **[Andrew Pires de Almeida]**.
 Sinta-se à vontade para entrar em contato através do formulário no site ou abrir uma *Issue* se encontrar algum bug!

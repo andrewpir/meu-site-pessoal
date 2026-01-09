@@ -1,0 +1,17 @@
+.myhistory {
+    display: inline;
+    width: 45%;
+    flex: 1 1 100vw;
+}
+
+.myhistory h4 {
+    display: flex;
+    width: 45%;
+    align-items: left;
+    text-align: justify;
+    padding: 1vw;
+}
+
+.myhistory .tecnologies {
+    align-self: flex-end;
+}
