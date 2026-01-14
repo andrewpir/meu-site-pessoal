@@ -9,10 +9,17 @@ import { Component} from '@angular/core';
 export class PersonalProjects {
     projetosPessoais = [
         {
+            titulo: 'Portfólio & Hub de Conteúdo',
+            descricao: 'Aplicação Single Page (SPA) desenvolvida para centralizar projetos de engenharia e desenvolvimento, com foco em performance e design responsivo.',
+            tecnologias: ['HTML', 'CSS', 'Typescript', 'Angular', 'bootstrap', 'Apache', 'Linux'],
+            link: 'https://github.com/andrewpir/meu-site-pessoal',
+            imagem: '/images/projects/PersonalPage.png'
+        },
+        {
             titulo: 'Site de prática',
             descricao: 'Um Site feito para pratica de html e css',
             tecnologias: ['HTML', 'CSS', 'Bootstrap'],
-            link: 'https://github.com/...',
+            link: 'https://github.com/andrewpir/pagina_de_estudos',
             imagem: '/images/projects/Sitedeestudos.png'
         },
         {
@@ -21,35 +28,14 @@ export class PersonalProjects {
             tecnologias: ['Javascript', 'HTML', 'CSS'],
             link: 'https://github.com/andrewpir/Calculadora-Html-Js',
             imagem: '/images/projects/Calculadora-V001.png'
-        },
-        {
+        }
+        /*{
             titulo: 'Template',
             descricao: 'Descrição',
             tecnologias: ['Tecnologias', ''],
             link: '#',
             imagem: 'Image'
-        },
-        {
-            titulo: 'Template1',
-            descricao: 'Descrição',
-            tecnologias: ['Tecnologias', ''],
-            link: '#',
-            imagem: 'Image'
-        },
-        {
-            titulo: 'Template2',
-            descricao: 'Descrição',
-            tecnologias: ['Tecnologias', ''],
-            link: '#',
-            imagem: 'Image'
-        },
-        {
-            titulo: 'Template3',
-            descricao: 'Descrição',
-            tecnologias: ['Tecnologias', ''],
-            link: '#',
-            imagem: 'Image'
-        }
+        }*/
     ];
 
 }
