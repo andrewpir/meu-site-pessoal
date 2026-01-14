@@ -16,6 +16,13 @@ export class PersonalProjects {
             imagem: '/images/projects/PersonalPage.png'
         },
         {
+            titulo: 'Bot Discord Piruleta',
+            descricao: 'Um Robo feito para discord, usado em estudos de backend e comunicação com a API do Discord',
+            tecnologias: ['Discord.js', 'Javascript', 'node.js'],
+            link: 'https://github.com/andrewpir/Bot-Discord-Piruleta',
+            imagem: '/images/projects/piruletabot.jpg'
+        },
+        {
             titulo: 'Site de prática',
             descricao: 'Um Site feito para pratica de html e css',
             tecnologias: ['HTML', 'CSS', 'Bootstrap'],
